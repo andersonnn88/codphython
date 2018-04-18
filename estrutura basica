@@ -1,0 +1,68 @@
+n1=10
+n2=20
+n3=n1+n2
+print(n3)
+
+Name='teste'
+Name = Name+" Is  the best"
+print(Name)
+print(Name[0:2])
+print(Name[::2])
+
+
+Name2="Michael jackson"
+print(Name2[0:5:2])
+
+
+print(3 * "Michael jackson\n")
+print(3 * "Michael jackson\t")
+print(3 * "Michael jackson\\")
+
+A="Thriller is the sixth studio album"
+B=A.upper()
+print(B)
+
+C='Michael jackson is the best'
+D=C.replace('Michael','janet')
+print(D)
+
+print(3 + 2 * 2)
+name = 'Lizz'
+print(name[0:2])
+
+var = '01234567'
+print(var[::2])
+print('1'+'2')
+
+myvar = 'hello'
+
+#Arrays
+Tuple =("disco",10,1.2)
+Tuple2 = Tuple +("hard rock", 10)
+
+print(Tuple)
+print(Tuple2)
+
+
+print(Tuple2[0:3])
+
+tam = len(("disco",10,1.2, "hard rock",10))
+print(tam)
+
+#Sort
+Ratings =(10,9,6,5,10,8,9,6,2)
+RatingsSorted=sorted(Ratings)
+
+print(RatingsSorted)
+
+NT =(1,2,("pop","rock"),(3,4),("disco",(1,2)))
+
+
+print(NT[4][0])
+
+#quebra uma lista
+
+Vsplit= "a,b,c,d".split(",")
+print(Vsplit)
+
+

@@ -1,0 +1,97 @@
+album=["Michael jackson","Thriller","Thriller",1982]
+album_set=set(album)
+print(album)
+print(album_set)
+#set elimina elementos duplicatas
+A={"Thriller","Back in Black","Ac/dc"}
+print(A)
+#add. pra adicionar mais elementos
+A.add("NSYNC")
+print(A)
+#remover elementos Variable.remove
+A.remove("NSYNC")
+print(A)
+
+#Verificar se contem um elemento
+contem = "Ac/dc" in A
+print(contem)
+
+#nova list interseção de list
+album_set_1={"AC/DC","Back in Black","Thriller"}
+album_set_2={"AC/DC","Back in Black","The Dark Side of the Moom"}
+
+album_set_3=album_set_1 & album_set_2
+print(album_set_3)
+
+#uniao de duas list
+album4 = album_set_1.union(album_set_2)
+
+print(album4)
+
+# retorna boolean
+album5 = album_set_3.issubset(album_set_1)
+print(album5)
+
+dicionario = {"Thriller": 1982, "Back in Black": 1980, "The Dark Side the Moon": 1973, "The Bodyguard": 1992 }
+
+print(dicionario)
+
+
+del(dicionario['Thriller'])
+
+print(dicionario)
+
+contem1= 'The Bodyguard' in dicionario
+
+print contem1
+
+
+chave = dicionario.keys()
+
+print(chave)
+
+chave_valores = dicionario.values()
+
+print(chave_valores)
+
+
+
+
+
+F=('a','b','c')
+
+
+print(F[0])
+
+
+Dict={"A":1,"B":"2","C":[3,3,3],"D":(4,4,4),'E':5,'F':6}
+
+
+print(Dict["D"])
+
+L = ['a']
+L.append(['a','b'])
+print(L)
+
+
+#Lista são tuplas mutáveis nã0
+
+
+
+#Condicionais
+
+#bollean
+print("ac/dc" == "michael jackson")
+g= 6
+print(g==7)
+print(g>5)
+print(g!=4)
+
+age=5
+var = 100
+
+
+n5 = input()
+n6 = input()
+
+
